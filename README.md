@@ -24,7 +24,7 @@
 	npm install @line/bot-sdk
 	npm install linebot
 
-Dialogflow串接到LINE bot:
+## Dialogflow串接到LINE bot:
 	首先要先註冊一個Dialogflow帳號，並且新增一個Agent
 	完畢後切換到Integrations，滑到Text based的地方有LINE可以選擇
 	點進去後就可以填入Channel ID、Channel Secret、Channel Access Token
