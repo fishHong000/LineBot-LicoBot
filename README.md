@@ -44,11 +44,9 @@ Dialogflow串接到LINE bot:
 	接著再到資料庫創建對應名稱的資料庫，也可以在程式碼裡自行修改SQL指令中的資料表名稱
 
 ## 開發程式碼之安裝設定:
-	1.解壓縮"程式碼.zip"的檔案並將LicoBot資料夾解壓縮至指定位置
-
-	2.先創辦一個Heroku帳號，新增一個app放置程式碼
-	  
-	3.用cmd切到專案資料夾下
+	1. 解壓縮"程式碼.zip"的檔案並將LicoBot資料夾解壓縮至指定位置
+	2. 先創辦一個Heroku帳號，新增一個app放置程式碼
+	3. 用cmd切到專案資料夾下
 	並依序輸入
 	heroku login //登入Heroku
 	heroku git:remote -a "APP的名字" //讓程式碼上傳到Heroku上指定的app中
