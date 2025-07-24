@@ -1,0 +1,28 @@
+{
+  "name": "myapp",
+  "version": "0.0.0",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "engines": {
+    "node": "12.18.2",
+    "npm": "6.14.5"
+  },
+  "dependencies": {
+    "@line/bot-sdk": "^7.5.2",
+    "actions-on-google": "^3.0.0",
+    "auth-header": "^1.0.0",
+    "axios": "^0.21.0",
+    "body-parser": "^1.18.3",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.0",
+    "dialogflow": "^4.0.3",
+    "dialogflow-fulfillment": "github:dialogflow/dialogflow-fulfillment-nodejs#master",
+    "express": "^4.16.4",
+    "heroku": "^7.66.3",
+    "linebot": "^1.6.1",
+    "pg": "^7.18.2"
+  }
+}
